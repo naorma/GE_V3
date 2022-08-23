@@ -19,13 +19,13 @@ datasources:
     execution_engine:
       class_name: SqlAlchemyExecutionEngine
       credentials:
-        host: ib91586.us-east-1
-        username: naorm
-        database: PROD
+        host: yours.snowflake.hostname
+        username: yours.username.to.snowflake
+        database: yours.database.name
         query:
-          schema: SIGNALS_PROD
+          schema: yours.database.query.schema
           warehouse: DEFAULT_WAREHOUSE
-          role: QA_SEARCH
+          role: yours.snowflake.role
         connect_args:
           authenticator: externalbrowser
         drivername: snowflake
