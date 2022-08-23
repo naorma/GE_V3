@@ -21,7 +21,7 @@ action_list:
     action:
       module_name: datahub.integrations.great_expectations.action
       class_name: DataHubValidationAction
-      server_url: http://10.171.87.220:8080/ #datahub server url
+      server_url: http://<server_ip>:8080/ #datahub server url
 evaluation_parameters: {}
 runtime_configuration: {}
 validations:
